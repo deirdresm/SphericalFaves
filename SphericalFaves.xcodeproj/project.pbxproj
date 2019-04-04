@@ -1,0 +1,835 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0960A5FE5B10ADCCE15A362B /* Pods_SphericalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925CCB37853803B151AEA76B /* Pods_SphericalUITests.framework */; };
+		38169A20221D2AE400D20C60 /* MakerNameNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38169A1F221D2AE400D20C60 /* MakerNameNode.swift */; };
+		38260B32218A6A6F007F56B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3863AC062182357E00B60381 /* Assets.xcassets */; };
+		383E2F5421F91E2600CC12F1 /* TestPersistentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383E2F5321F91E2600CC12F1 /* TestPersistentContainer.swift */; };
+		385178B7221CC75500F17AF3 /* UILabel+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385178B6221CC75500F17AF3 /* UILabel+Extras.swift */; };
+		3863AC002182357C00B60381 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3863ABFF2182357C00B60381 /* AppDelegate.swift */; };
+		3863AC022182357C00B60381 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3863AC012182357C00B60381 /* ViewController.swift */; };
+		3863AC052182357C00B60381 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3863AC032182357C00B60381 /* Main.storyboard */; };
+		3863AC0A2182357E00B60381 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3863AC082182357E00B60381 /* LaunchScreen.storyboard */; };
+		3863AC152182357E00B60381 /* SphericalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3863AC142182357E00B60381 /* SphericalTests.swift */; };
+		3863AC202182357E00B60381 /* SphericalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3863AC1F2182357E00B60381 /* SphericalUITests.swift */; };
+		3863AC2F218235DA00B60381 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3863AC2E218235DA00B60381 /* SceneKit.framework */; };
+		38914AF021E7F9E90034F83F /* ShadowColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38914AED21E7F9E80034F83F /* ShadowColor.swift */; };
+		38914AF121E7F9E90034F83F /* Maker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38914AEE21E7F9E90034F83F /* Maker.swift */; };
+		38914AF221E7F9E90034F83F /* EyePalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38914AEF21E7F9E90034F83F /* EyePalette.swift */; };
+		38914AF521E7FA0F0034F83F /* Colors.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38914AF321E7FA0F0034F83F /* Colors.xcdatamodeld */; };
+		38914AF921E7FA520034F83F /* Colors_0.06.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = 38914AF621E7FA510034F83F /* Colors_0.06.sqlite-wal */; };
+		38914AFA21E7FA520034F83F /* Colors_0.06.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 38914AF721E7FA510034F83F /* Colors_0.06.sqlite */; };
+		38914AFB21E7FA520034F83F /* Colors_0.06.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = 38914AF821E7FA520034F83F /* Colors_0.06.sqlite-shm */; };
+		38BC9929223645BE00EDE79B /* ColorMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC9928223645BE00EDE79B /* ColorMeta.swift */; };
+		38BD9019220647B800D9A7D4 /* SCNTransaction+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BD9018220647B700D9A7D4 /* SCNTransaction+Extras.swift */; };
+		38E02A182192C6D40054ABD4 /* PrimitivesScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E02A172192C6D40054ABD4 /* PrimitivesScene.swift */; };
+		38F21D0E22138078001F42F5 /* SCNSceneCoreDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F21D0D22138078001F42F5 /* SCNSceneCoreDataSource.swift */; };
+		40122A4F667B654044B06161 /* Pods_Spherical.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A110C087E15345AB6F2951B /* Pods_Spherical.framework */; };
+		4E3FA7D23783D2002C58E524 /* Pods_SphericalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A4C01C22343CA4A0E62E8B7 /* Pods_SphericalTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3863AC112182357E00B60381 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3863ABF42182357C00B60381 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3863ABFB2182357C00B60381;
+			remoteInfo = Spherical;
+		};
+		3863AC1C2182357E00B60381 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3863ABF42182357C00B60381 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3863ABFB2182357C00B60381;
+			remoteInfo = Spherical;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B72800CB50C5C8D2DEC1096 /* Pods-SphericalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SphericalUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SphericalUITests/Pods-SphericalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1FAA1C130EAFBD197309608D /* Pods-SphericalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SphericalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SphericalTests/Pods-SphericalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		38169A1F221D2AE400D20C60 /* MakerNameNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakerNameNode.swift; sourceTree = "<group>"; };
+		3820468721AE4E0F00E6A004 /* Spherical.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Spherical.entitlements; sourceTree = "<group>"; };
+		383E2F5321F91E2600CC12F1 /* TestPersistentContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPersistentContainer.swift; sourceTree = "<group>"; };
+		3846525621854A610069BAFA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		385178B6221CC75500F17AF3 /* UILabel+Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extras.swift"; sourceTree = "<group>"; };
+		3863ABFC2182357C00B60381 /* SphericalFaves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SphericalFaves.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3863ABFF2182357C00B60381 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3863AC012182357C00B60381 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3863AC042182357C00B60381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3863AC062182357E00B60381 /* Assets.xcassets */ = {isa = PBXFileReference; explicitFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3863AC092182357E00B60381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3863AC102182357E00B60381 /* SphericalFavesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SphericalFavesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3863AC142182357E00B60381 /* SphericalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphericalTests.swift; sourceTree = "<group>"; };
+		3863AC162182357E00B60381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3863AC1B2182357E00B60381 /* SphericalFavesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SphericalFavesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3863AC1F2182357E00B60381 /* SphericalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphericalUITests.swift; sourceTree = "<group>"; };
+		3863AC212182357E00B60381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3863AC2E218235DA00B60381 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		38914AED21E7F9E80034F83F /* ShadowColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowColor.swift; sourceTree = "<group>"; };
+		38914AEE21E7F9E90034F83F /* Maker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maker.swift; sourceTree = "<group>"; };
+		38914AEF21E7F9E90034F83F /* EyePalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyePalette.swift; sourceTree = "<group>"; };
+		38914AF421E7FA0F0034F83F /* Colors.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Colors.xcdatamodel; sourceTree = "<group>"; };
+		38914AF621E7FA510034F83F /* Colors_0.06.sqlite-wal */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colors_0.06.sqlite-wal"; sourceTree = "<group>"; };
+		38914AF721E7FA510034F83F /* Colors_0.06.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Colors_0.06.sqlite; sourceTree = "<group>"; };
+		38914AF821E7FA520034F83F /* Colors_0.06.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colors_0.06.sqlite-shm"; sourceTree = "<group>"; };
+		38BC9928223645BE00EDE79B /* ColorMeta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ColorMeta.swift; path = Spherical/Models/ColorMeta.swift; sourceTree = SOURCE_ROOT; };
+		38BD9018220647B700D9A7D4 /* SCNTransaction+Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SCNTransaction+Extras.swift"; path = "/Users/deirdre/Development/Spherical/Spherical/SCNTransaction+Extras.swift"; sourceTree = "<absolute>"; };
+		38DE739E21EC4D7800DBCF03 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		38E02A172192C6D40054ABD4 /* PrimitivesScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimitivesScene.swift; sourceTree = "<group>"; };
+		38F21D0D22138078001F42F5 /* SCNSceneCoreDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNSceneCoreDataSource.swift; sourceTree = "<group>"; };
+		3A2E07D80B7F69C2CCE135B8 /* Pods-Spherical.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spherical.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spherical/Pods-Spherical.debug.xcconfig"; sourceTree = "<group>"; };
+		5A110C087E15345AB6F2951B /* Pods_Spherical.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spherical.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6210021194684338F046BAB8 /* Pods-SphericalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SphericalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SphericalUITests/Pods-SphericalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		67E670B992902C85C26A2602 /* Pods-SphericalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SphericalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SphericalTests/Pods-SphericalTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A4C01C22343CA4A0E62E8B7 /* Pods_SphericalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SphericalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		925CCB37853803B151AEA76B /* Pods_SphericalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SphericalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A4B3E860469F339C3CB262 /* Pods-Spherical.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spherical.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spherical/Pods-Spherical.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3863ABF92182357C00B60381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3863AC2F218235DA00B60381 /* SceneKit.framework in Frameworks */,
+				40122A4F667B654044B06161 /* Pods_Spherical.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3863AC0D2182357E00B60381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E3FA7D23783D2002C58E524 /* Pods_SphericalTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3863AC182182357E00B60381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0960A5FE5B10ADCCE15A362B /* Pods_SphericalUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38005F38219283CF00DDDCA3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3863AC012182357C00B60381 /* ViewController.swift */,
+				38E02A172192C6D40054ABD4 /* PrimitivesScene.swift */,
+				38169A1F221D2AE400D20C60 /* MakerNameNode.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		380B3ABF218A918D00EC89E8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				38BC9928223645BE00EDE79B /* ColorMeta.swift */,
+				38914AEF21E7F9E90034F83F /* EyePalette.swift */,
+				38914AEE21E7F9E90034F83F /* Maker.swift */,
+				38914AED21E7F9E80034F83F /* ShadowColor.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		38169A1E221D22A600D20C60 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3863AC032182357C00B60381 /* Main.storyboard */,
+				3863AC082182357E00B60381 /* LaunchScreen.storyboard */,
+				38914AF321E7FA0F0034F83F /* Colors.xcdatamodeld */,
+				38914AF721E7FA510034F83F /* Colors_0.06.sqlite */,
+				38914AF821E7FA520034F83F /* Colors_0.06.sqlite-shm */,
+				38914AF621E7FA510034F83F /* Colors_0.06.sqlite-wal */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3863ABF32182357C00B60381 = {
+			isa = PBXGroup;
+			children = (
+				38DE739E21EC4D7800DBCF03 /* README.md */,
+				3863ABFE2182357C00B60381 /* Spherical */,
+				3863AC132182357E00B60381 /* SphericalTests */,
+				3863AC1E2182357E00B60381 /* SphericalUITests */,
+				3863ABFD2182357C00B60381 /* Products */,
+				3863AC2D218235DA00B60381 /* Frameworks */,
+				7CEFF1265E597EC1CF347CB3 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		3863ABFD2182357C00B60381 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3863ABFC2182357C00B60381 /* SphericalFaves.app */,
+				3863AC102182357E00B60381 /* SphericalFavesTests.xctest */,
+				3863AC1B2182357E00B60381 /* SphericalFavesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3863ABFE2182357C00B60381 /* Spherical */ = {
+			isa = PBXGroup;
+			children = (
+				3820468721AE4E0F00E6A004 /* Spherical.entitlements */,
+				38005F38219283CF00DDDCA3 /* Controllers */,
+				380B3ABF218A918D00EC89E8 /* Models */,
+				38F21D0C22137887001F42F5 /* Delegates */,
+				38BD9018220647B700D9A7D4 /* SCNTransaction+Extras.swift */,
+				385178B6221CC75500F17AF3 /* UILabel+Extras.swift */,
+				38169A1E221D22A600D20C60 /* Resources */,
+				3863AC062182357E00B60381 /* Assets.xcassets */,
+				3846525621854A610069BAFA /* Info.plist */,
+			);
+			path = Spherical;
+			sourceTree = "<group>";
+		};
+		3863AC132182357E00B60381 /* SphericalTests */ = {
+			isa = PBXGroup;
+			children = (
+				3863AC142182357E00B60381 /* SphericalTests.swift */,
+				3863AC162182357E00B60381 /* Info.plist */,
+				383E2F5321F91E2600CC12F1 /* TestPersistentContainer.swift */,
+			);
+			path = SphericalTests;
+			sourceTree = "<group>";
+		};
+		3863AC1E2182357E00B60381 /* SphericalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3863AC1F2182357E00B60381 /* SphericalUITests.swift */,
+				3863AC212182357E00B60381 /* Info.plist */,
+			);
+			path = SphericalUITests;
+			sourceTree = "<group>";
+		};
+		3863AC2D218235DA00B60381 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3863AC2E218235DA00B60381 /* SceneKit.framework */,
+				5A110C087E15345AB6F2951B /* Pods_Spherical.framework */,
+				8A4C01C22343CA4A0E62E8B7 /* Pods_SphericalTests.framework */,
+				925CCB37853803B151AEA76B /* Pods_SphericalUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38F21D0C22137887001F42F5 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				3863ABFF2182357C00B60381 /* AppDelegate.swift */,
+				38F21D0D22138078001F42F5 /* SCNSceneCoreDataSource.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		7CEFF1265E597EC1CF347CB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A2E07D80B7F69C2CCE135B8 /* Pods-Spherical.debug.xcconfig */,
+				C0A4B3E860469F339C3CB262 /* Pods-Spherical.release.xcconfig */,
+				1FAA1C130EAFBD197309608D /* Pods-SphericalTests.debug.xcconfig */,
+				67E670B992902C85C26A2602 /* Pods-SphericalTests.release.xcconfig */,
+				6210021194684338F046BAB8 /* Pods-SphericalUITests.debug.xcconfig */,
+				0B72800CB50C5C8D2DEC1096 /* Pods-SphericalUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3863ABFB2182357C00B60381 /* SphericalFaves */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3863AC242182357E00B60381 /* Build configuration list for PBXNativeTarget "SphericalFaves" */;
+			buildPhases = (
+				A5E364A67CD82427CB850E6B /* [CP] Check Pods Manifest.lock */,
+				3863ABF82182357C00B60381 /* Sources */,
+				3863ABF92182357C00B60381 /* Frameworks */,
+				3863ABFA2182357C00B60381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SphericalFaves;
+			productName = Spherical;
+			productReference = 3863ABFC2182357C00B60381 /* SphericalFaves.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3863AC0F2182357E00B60381 /* SphericalFavesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3863AC272182357E00B60381 /* Build configuration list for PBXNativeTarget "SphericalFavesTests" */;
+			buildPhases = (
+				5CAE8DB8C075EA50760DB72B /* [CP] Check Pods Manifest.lock */,
+				3863AC0C2182357E00B60381 /* Sources */,
+				3863AC0D2182357E00B60381 /* Frameworks */,
+				3863AC0E2182357E00B60381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3863AC122182357E00B60381 /* PBXTargetDependency */,
+			);
+			name = SphericalFavesTests;
+			productName = SphericalTests;
+			productReference = 3863AC102182357E00B60381 /* SphericalFavesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3863AC1A2182357E00B60381 /* SphericalFavesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3863AC2A2182357E00B60381 /* Build configuration list for PBXNativeTarget "SphericalFavesUITests" */;
+			buildPhases = (
+				EEF41B629254B518F6B11B89 /* [CP] Check Pods Manifest.lock */,
+				3863AC172182357E00B60381 /* Sources */,
+				3863AC182182357E00B60381 /* Frameworks */,
+				3863AC192182357E00B60381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3863AC1D2182357E00B60381 /* PBXTargetDependency */,
+			);
+			name = SphericalFavesUITests;
+			productName = SphericalUITests;
+			productReference = 3863AC1B2182357E00B60381 /* SphericalFavesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3863ABF42182357C00B60381 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Deirdre Saoirse Moen";
+				TargetAttributes = {
+					3863ABFB2182357C00B60381 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					3863AC0F2182357E00B60381 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
+						TestTargetID = 3863ABFB2182357C00B60381;
+					};
+					3863AC1A2182357E00B60381 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
+						TestTargetID = 3863ABFB2182357C00B60381;
+					};
+				};
+			};
+			buildConfigurationList = 3863ABF72182357C00B60381 /* Build configuration list for PBXProject "SphericalFaves" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3863ABF32182357C00B60381;
+			productRefGroup = 3863ABFD2182357C00B60381 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3863ABFB2182357C00B60381 /* SphericalFaves */,
+				3863AC0F2182357E00B60381 /* SphericalFavesTests */,
+				3863AC1A2182357E00B60381 /* SphericalFavesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3863ABFA2182357C00B60381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3863AC0A2182357E00B60381 /* LaunchScreen.storyboard in Resources */,
+				38914AF921E7FA520034F83F /* Colors_0.06.sqlite-wal in Resources */,
+				38260B32218A6A6F007F56B5 /* Assets.xcassets in Resources */,
+				3863AC052182357C00B60381 /* Main.storyboard in Resources */,
+				38914AFA21E7FA520034F83F /* Colors_0.06.sqlite in Resources */,
+				38914AFB21E7FA520034F83F /* Colors_0.06.sqlite-shm in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3863AC0E2182357E00B60381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3863AC192182357E00B60381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5CAE8DB8C075EA50760DB72B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SphericalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5E364A67CD82427CB850E6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Spherical-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEF41B629254B518F6B11B89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SphericalUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3863ABF82182357C00B60381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38914AF021E7F9E90034F83F /* ShadowColor.swift in Sources */,
+				38169A20221D2AE400D20C60 /* MakerNameNode.swift in Sources */,
+				3863AC022182357C00B60381 /* ViewController.swift in Sources */,
+				38F21D0E22138078001F42F5 /* SCNSceneCoreDataSource.swift in Sources */,
+				38914AF121E7F9E90034F83F /* Maker.swift in Sources */,
+				38BC9929223645BE00EDE79B /* ColorMeta.swift in Sources */,
+				3863AC002182357C00B60381 /* AppDelegate.swift in Sources */,
+				385178B7221CC75500F17AF3 /* UILabel+Extras.swift in Sources */,
+				38914AF221E7F9E90034F83F /* EyePalette.swift in Sources */,
+				38BD9019220647B800D9A7D4 /* SCNTransaction+Extras.swift in Sources */,
+				38914AF521E7FA0F0034F83F /* Colors.xcdatamodeld in Sources */,
+				38E02A182192C6D40054ABD4 /* PrimitivesScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3863AC0C2182357E00B60381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383E2F5421F91E2600CC12F1 /* TestPersistentContainer.swift in Sources */,
+				3863AC152182357E00B60381 /* SphericalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3863AC172182357E00B60381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3863AC202182357E00B60381 /* SphericalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3863AC122182357E00B60381 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3863ABFB2182357C00B60381 /* SphericalFaves */;
+			targetProxy = 3863AC112182357E00B60381 /* PBXContainerItemProxy */;
+		};
+		3863AC1D2182357E00B60381 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3863ABFB2182357C00B60381 /* SphericalFaves */;
+			targetProxy = 3863AC1C2182357E00B60381 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3863AC032182357C00B60381 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3863AC042182357C00B60381 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3863AC082182357E00B60381 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3863AC092182357E00B60381 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3863AC222182357E00B60381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3863AC232182357E00B60381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3863AC252182357E00B60381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A2E07D80B7F69C2CCE135B8 /* Pods-Spherical.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3N8JZ2T92;
+				INFOPLIST_FILE = Spherical/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.deirdre.SphericalFaves;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3863AC262182357E00B60381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0A4B3E860469F339C3CB262 /* Pods-Spherical.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3N8JZ2T92;
+				INFOPLIST_FILE = Spherical/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.deirdre.SphericalFaves;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3863AC282182357E00B60381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FAA1C130EAFBD197309608D /* Pods-SphericalTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3LH6DD65LK;
+				INFOPLIST_FILE = SphericalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.deirdre.SphericalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SphericalFaves.app/SphericalFaves";
+			};
+			name = Debug;
+		};
+		3863AC292182357E00B60381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67E670B992902C85C26A2602 /* Pods-SphericalTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3LH6DD65LK;
+				INFOPLIST_FILE = SphericalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.deirdre.SphericalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SphericalFaves.app/SphericalFaves";
+			};
+			name = Release;
+		};
+		3863AC2B2182357E00B60381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6210021194684338F046BAB8 /* Pods-SphericalUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3LH6DD65LK;
+				INFOPLIST_FILE = SphericalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.deirdre.SphericalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Spherical;
+			};
+			name = Debug;
+		};
+		3863AC2C2182357E00B60381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B72800CB50C5C8D2DEC1096 /* Pods-SphericalUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3LH6DD65LK;
+				INFOPLIST_FILE = SphericalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.deirdre.SphericalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Spherical;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3863ABF72182357C00B60381 /* Build configuration list for PBXProject "SphericalFaves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3863AC222182357E00B60381 /* Debug */,
+				3863AC232182357E00B60381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3863AC242182357E00B60381 /* Build configuration list for PBXNativeTarget "SphericalFaves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3863AC252182357E00B60381 /* Debug */,
+				3863AC262182357E00B60381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3863AC272182357E00B60381 /* Build configuration list for PBXNativeTarget "SphericalFavesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3863AC282182357E00B60381 /* Debug */,
+				3863AC292182357E00B60381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3863AC2A2182357E00B60381 /* Build configuration list for PBXNativeTarget "SphericalFavesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3863AC2B2182357E00B60381 /* Debug */,
+				3863AC2C2182357E00B60381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		38914AF321E7FA0F0034F83F /* Colors.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				38914AF421E7FA0F0034F83F /* Colors.xcdatamodel */,
+			);
+			currentVersion = 38914AF421E7FA0F0034F83F /* Colors.xcdatamodel */;
+			path = Colors.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3863ABF42182357C00B60381 /* Project object */;
+}
